@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 import { describe, it, expect, beforeEach } from 'bun:test'
 import { SessionIndex } from '../src/store.js'
 import { mkdtempSync } from 'node:fs'

@@ -1,9 +1,11 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 /**
- * @oke3/opencode-sessionrecall — AI code archaeology for OpenCode sessions.
+ * @ground-zero-llc/gz-sessionrecall — AI code archaeology for OpenCode sessions.
  *
  * @example
  * ```typescript
- * import { OpenCodeDb, SessionIndex, search } from '@oke3/opencode-sessionrecall'
+ * import { OpenCodeDb, SessionIndex, search } from '@ground-zero-llc/gz-sessionrecall'
  *
  * const db = new OpenCodeDb('~/.local/share/opencode/opencode.db')
  * const index = new SessionIndex('./data')

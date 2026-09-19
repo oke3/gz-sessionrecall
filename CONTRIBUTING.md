@@ -1,4 +1,4 @@
-# Contributing to opencode-sessionrecall
+# Contributing to gz-sessionrecall
 
 Thanks for your interest in contributing!
 

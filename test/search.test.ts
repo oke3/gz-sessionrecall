@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 import { describe, it, expect } from 'bun:test'
 import { tokenize, scoreSession, search, snippet, listModels, listProjects } from '../src/search.js'
 import type { IndexedSession } from '../src/store.js'

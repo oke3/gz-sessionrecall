@@ -1,5 +1,5 @@
 {
-  "name": "@oke3/opencode-sessionrecall",
+  "name": "@ground-zero-llc/gz-sessionrecall",
   "version": "0.1.0",
   "description": "AI code archaeology — index OpenCode sessions into a searchable knowledge base",
   "type": "module",
@@ -31,14 +31,15 @@
     "@types/node": "^22.0.0",
     "typescript": "^5.6.0"
   },
-  "author": "oke3",
+  "author": "Ground Zero LLC <hello@ground-zero.dev>",
+  "publisher": "Ground Zero LLC",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oke3/opencode-sessionrecall.git"
+    "url": "git+https://github.com/oke3/gz-sessionrecall.git"
   },
   "bugs": {
-    "url": "https://github.com/oke3/opencode-sessionrecall/issues"
+    "url": "https://github.com/oke3/gz-sessionrecall/issues"
   },
-  "homepage": "https://github.com/oke3/opencode-sessionrecall#readme"
+  "homepage": "https://github.com/oke3/gz-sessionrecall#readme"
 }

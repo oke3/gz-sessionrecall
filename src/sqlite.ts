@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 /**
  * SQLite driver adapter — works in both Node (node:sqlite, 22.5+)
  * and Bun (bun:sqlite). Zero runtime dependencies.

@@ -1,10 +1,12 @@
-# opencode-sessionrecall
+# gz-sessionrecall
+
+> Built by [Ground Zero LLC](https://github.com/oke3) — AI infrastructure for the agentic age.
 
 AI code archaeology for OpenCode — index your sessions into a searchable, local-first knowledge base.
 
-[![CI](https://github.com/oke3/opencode-sessionrecall/actions/workflows/ci.yml/badge.svg)](https://github.com/oke3/opencode-sessionrecall/actions)
-[![npm](https://img.shields.io/npm/v/@oke3/opencode-sessionrecall)](https://www.npmjs.com/package/@oke3/opencode-sessionrecall)
-[![license](https://img.shields.io/npm/l/@oke3/opencode-sessionrecall)](https://github.com/oke3/opencode-sessionrecall/blob/main/LICENSE)
+[![CI](https://github.com/oke3/gz-sessionrecall/actions/workflows/ci.yml/badge.svg)](https://github.com/oke3/gz-sessionrecall/actions)
+[![npm](https://img.shields.io/npm/v/@ground-zero-llc/gz-sessionrecall)](https://www.npmjs.com/package/@ground-zero-llc/gz-sessionrecall)
+[![license](https://img.shields.io/npm/l/@ground-zero-llc/gz-sessionrecall)](https://github.com/oke3/gz-sessionrecall/blob/main/LICENSE)
 
 ## Why
 
@@ -20,7 +22,7 @@ OpenCode stores every session — prompts, responses, reasoning, costs — in a 
 ## Install
 
 ```bash
-npm install -g @oke3/opencode-sessionrecall
+npm install -g @ground-zero-llc/gz-sessionrecall
 ```
 
 Requires Node 22.5+ (uses `node:sqlite`; falls back to `bun:sqlite` under Bun).
@@ -64,7 +66,7 @@ sessionrecall stats
 ## Library API
 
 ```typescript
-import { OpenCodeDb, SessionIndex, search } from '@oke3/opencode-sessionrecall'
+import { OpenCodeDb, SessionIndex, search } from '@ground-zero-llc/gz-sessionrecall'
 
 // Read OpenCode's database (read-only)
 const db = new OpenCodeDb('~/.local/share/opencode/opencode.db')
@@ -102,11 +104,11 @@ The OpenCode database is opened **read-only** — sessionrecall never writes to 
 
 ## Related Projects
 
-- [opencode-sessions](https://github.com/oke3/opencode-sessions) — Persistent cross-session memory for OpenCode agents
-- [opencode-codemap](https://github.com/oke3/opencode-codemap) — Codebase mapping for OpenCode
-- [opencode-bench](https://github.com/oke3/opencode-bench) — Benchmarking suite for OpenCode
-- [opencode-remote](https://github.com/oke3/opencode-remote) — Drive OpenCode over SSH
-- [opencode-modelrouter](https://github.com/oke3/opencode-modelrouter) — Intelligent LLM cost router for OpenCode
+- [gz-sessions](https://github.com/oke3/gz-sessions) — Persistent cross-session memory for OpenCode agents
+- [gz-codemap](https://github.com/oke3/gz-codemap) — Codebase mapping for OpenCode
+- [gz-bench](https://github.com/oke3/gz-bench) — Benchmarking suite for OpenCode
+- [gz-remote](https://github.com/oke3/gz-remote) — Drive OpenCode over SSH
+- [gz-modelrouter](https://github.com/oke3/gz-modelrouter) — Intelligent LLM cost router for OpenCode
 
 ## License
 

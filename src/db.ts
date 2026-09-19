@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 /**
  * Read OpenCode's SQLite database (read-only).
  * Uses a dual-runtime SQLite adapter (node:sqlite / bun:sqlite).

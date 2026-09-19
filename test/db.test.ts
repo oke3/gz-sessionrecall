@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 import { describe, it, expect, beforeEach, afterEach } from 'bun:test'
 import { openDb } from '../src/sqlite.js'
 import { OpenCodeDb } from '../src/db.js'
