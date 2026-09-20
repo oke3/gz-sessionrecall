@@ -1,6 +1,6 @@
 # gz-sessionrecall
 
-AI code archaeology — index OpenCode sessions into a searchable, local-first knowledge base.
+> AI code archaeology — index OpenCode sessions into a searchable, local-first knowledge base.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Ground Zero LLC](https://img.shields.io/badge/Built%20by-Ground%20Zero%20LLC-purple)](https://github.com/oke3)
